@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3001;
 
 app.use(cors(
   {
-    origin: ["https://navodisha-college-search-frontend.vercel.app"],
+    origin: ["https://navodisha-college-search-frontend.vercel.app/"],
     methods:['POST', 'GET'],
     credentials: true
   }
